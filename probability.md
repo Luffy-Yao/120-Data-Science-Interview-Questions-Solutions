@@ -25,19 +25,21 @@ The expected number of children each couple will have is 2.
   - the expected number of hash collisions: 1-10*(9/10)^10
   - the expected number of hashes that are unused: 10*(9/10)^10
 #### 11. You call 2 UberX’s and 3 Lyfts. If the time that each takes to reach you is IID, what is the probability that all the Lyfts arrive first? What is the probability that all the UberX’s arrive first?
-Lyft comes first, (3/5)*(2/4)*(1/3)=1/10, UberX’s arrive first, (2/5)*(1/4)=1/10
+Lyft comes first, (3/5)*(2/4)*(1/3)=1/10, UberX’s arrive first, (2/5)*(1/4)=1/10.
+
 #### 12. I write a program should print out all the numbers from 1 to 300, but prints out Fizz instead if the number is divisible by 3, Buzz instead if the number is divisible by 5, and FizzBuzz if the number is divisible by 3 and 5. What is the total number of numbers that is either Fizzed, Buzzed, or FizzBuzzed?
-  - # of Fizz: 300/3=100 ,   # of Buzz: 300/5=60, # of FizzBuzz 300/15=20, 
-  - #(Fizz or Buzz)=#(Fizz)+#(Buzz)-#(Fizz and Buzz)=140
+ - # of Fizz: 300/3=100 ,   # of Buzz: 300/5=60, # of FizzBuzz 300/15=20, 
+- #(Fizz or Buzz)=#(Fizz)+#(Buzz)-#(Fizz and Buzz)=140
+
 #### 13. On a dating site, users can select 5 out of 24 adjectives to describe themselves. A match is declared between two users if they match on at least 4 adjectives. If Alice and Bob randomly pick adjectives, what is the probability that they form a match?
   - (C (5,4) * C (19,1) + C(5,5)* C(19,0))/ C(24,5)
 #### 14. A lazy high school senior types up application and envelopes to n different colleges, but puts the applications randomly into the envelopes. What is the expected number of applications that went to the right college?
   - Let X be the number of applications that went to the right college. $X=\sum_{i=1}^nI_i$ I_i is the indicator function that ith application goes to the ith college.
--  $E(X)=\sum_{i=1}^nE(I_i)=\sum_{i=1}^nP(X_i=i)= \sum_{i=1}^n*1/n=1$
+-  $$E(X)=\sum_{i=1}^nE(I_i)=\sum_{i=1}^nP(X_i=i)= \sum_{i=1}^n*1/n=1$$
 #### 15. Let’s say you have a very tall father. On average, what would you expect the height of his son to be? Taller, equal, or shorter? What if you had a very short father?
   -  Regress to the mean. 
 #### 16. What’s the expected number of coin flips until you get two heads in a row? What’s the expected number of coin flips until you get two tails in a row?
-  - 6. [Quora Answer]( https://www.quora.com/What-is-the-expected-number-of-coin-flips-until-you-get-two-heads-in-a-row)
+  - 6. [Quora Answer] (https://www.quora.com/What-is-the-expected-number-of-coin-flips-until-you-get-two-heads-in-a-row)
 #### 17. Let’s say we play a game where I keep flipping a coin until I get heads. If the first time I get heads is on the nth coin, then I pay you 2n-1 dollars. How much would you pay me to play this game?
   - less than $3 [Quora Answer] (https://math.stackexchange.com/questions/1448973/fair-value-of-game-involving-obtaining-heads)
 #### 18. You have two coins, one of which is fair and comes up heads with a probability 1/2, and the other which is biased and comes up heads with probability 3/4. You randomly pick coin and flip it twice, and get heads both times. What is the probability that you picked the fair coin?
