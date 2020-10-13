@@ -21,8 +21,9 @@ The expected number of children each couple will have is 2.
 #### 9. How many ways can you split 12 people into 3 teams of 4?
   -  1 2 3 4 |5 6 7 8 | 9 10 11 12| There are 12! Different ways to arrange 12 people in a line, for each group with 4, it has 4! Different permutations, also have 3! Way for group permutation. Therefore, we have 12!/(3!*4!^3) number of ways. 
 #### 10. Your hash function assigns each object to a number between 1:10, each with equal probability. With 10 objects, what is the probability of a hash collision? What is the expected number of hash collisions? What is the expected number of hashes that are unused.
+[Quora Answer](https://www.quora.com/Your-hash-function-assigns-each-object-to-a-number-between-1-10-each-with-equal-probability-With-10-objects-what-is-the-probability-of-a-hash-collision-What-is-the-expected-number-of-hash-collisions-What-is-the-expected-number-of-hashes-that-are-unused)
   - the probability of a hash collision: 1-(10!/10^10)
-  - the expected number of hash collisions: 1-10*(9/10)^10
+  - the expected number of hash collisions: 10-10*(9/10)^10
   - the expected number of hashes that are unused: 10*(9/10)^10
 #### 11. You call 2 UberX’s and 3 Lyfts. If the time that each takes to reach you is IID, what is the probability that all the Lyfts arrive first? What is the probability that all the UberX’s arrive first?
 Lyft comes first, (3/5)*(2/4)*(1/3)=1/10, UberX’s arrive first, (2/5)*(1/4)=1/10.
