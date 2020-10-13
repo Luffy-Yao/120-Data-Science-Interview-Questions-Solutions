@@ -28,7 +28,7 @@ The expected number of children each couple will have is 2.
 Lyft comes first, (3/5)*(2/4)*(1/3)=1/10, UberX’s arrive first, (2/5)*(1/4)=1/10.
 
 #### 12. I write a program should print out all the numbers from 1 to 300, but prints out Fizz instead if the number is divisible by 3, Buzz instead if the number is divisible by 5, and FizzBuzz if the number is divisible by 3 and 5. What is the total number of numbers that is either Fizzed, Buzzed, or FizzBuzzed?
- - # of Fizz: 300/3=100 ,   # of Buzz: 300/5=60, # of FizzBuzz 300/15=20, 
+- # of Fizz: 300/3=100 ,  # of Buzz: 300/5=60, # of FizzBuzz 300/15=20, 
 - #(Fizz or Buzz)=#(Fizz)+#(Buzz)-#(Fizz and Buzz)=140
 
 #### 13. On a dating site, users can select 5 out of 24 adjectives to describe themselves. A match is declared between two users if they match on at least 4 adjectives. If Alice and Bob randomly pick adjectives, what is the probability that they form a match?
